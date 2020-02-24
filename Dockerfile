@@ -1,5 +1,5 @@
 # use latest Node LTS
-FROM node:lts
+FROM node:10-alpine
 
 # set user to avoid permission issues
 # (see https://github.com/nodejs/node-gyp/issues/1236)
